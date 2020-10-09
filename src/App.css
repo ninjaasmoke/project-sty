@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Product';
 }
 
 @font-face {
@@ -10,18 +9,15 @@
   src: url('./assets/Product Sans Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/Montserrat-Medium.ttf');
+}
+
 body {
   background-color: white;
   color: black;
-  font-family: 'Product';
-}
-
-h1 {
-  font-family: 'Product';
-}
-
-p {
-  font-family: 'Product';
+  font-family: 'Montserrat';
 }
 
 .nav {
@@ -35,4 +31,5 @@ p {
 
 .greeting {
   font-size: 20px;
+  font-family: 'Product';
 }
