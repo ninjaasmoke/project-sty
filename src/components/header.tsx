@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron } from 'reactstrap';
+import { Jumbotron, NavItem } from 'reactstrap';
 
 export default function headerComp() {
     return (
@@ -8,6 +8,7 @@ export default function headerComp() {
                 <div className="greeting">
                     Hey there!
                 </div>
+                <NavItem>Home</NavItem>
             </header>
             <Jumbotron>
                 <p>
